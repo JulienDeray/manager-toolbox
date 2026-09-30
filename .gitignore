@@ -1,0 +1,17 @@
+# Your filled team config stays local; only the template is committed
+TEAM_CONTEXT.md
+
+# Private people data: never commit, never share
+people/
+notes/
+
+# Generated local output (flow-viz)
+output/
+
+# Secrets and local env
+.env
+.env.*
+
+# OS / editor noise
+.DS_Store
+__pycache__/
